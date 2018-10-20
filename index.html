@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Anaelise's First Site</title>
+    <style>
+     body {
+	 background-color: rgb(100, 255, 255);
+	 margin: 0;
+     }
+     h1 {
+	 color: red;
+     }
+     .house {
+	 background-color: white;
+	 max-width: 400px;
+	 text-align: center;
+     }
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to my site!</h1>
+    <div class="house">
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+	<style>
+	 .outline {
+	     stroke: rgb(220,220,0);
+	     fill: yellow;
+	 }
+	 .door {
+	     stroke: rgb(220, 0, 0);
+	     fill: red;
+	 }
+	</style>
+
+	<polygon class="outline" points="5,95 5,40 95,40 95,95" />
+	<polygon class="outline" points="5,40 50,5 95,40" />
+	<polygon class="door" points="40,95 40,60 60,60 60,95" />
+
+	<!-- If you do not specify the stroke
+	     color the line will not be visible -->
+      </svg>
+      <h2><a href="classes.html">Classes</a></h2>
+    </div>
+  </body>
+</html>
